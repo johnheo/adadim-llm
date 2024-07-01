@@ -32,6 +32,21 @@ Running GPTQ-ada
 - To evaluate code generation:
 `sh scripts/gptq/code.sh`
 
+## Citation
+
+If you find AdaDim helpful or relevant, please kindly cite our paper:
+
+```bibtex
+@inproceedings{
+heo2024rethinking,
+title={Rethinking Channel Dimensions to Isolate Outliers for Low-bit Weight Quantization of Large Language Models},
+author={Jung Hwan Heo and Jeonghoon Kim and Beomseok Kwon and Byeongwook Kim and Se Jung Kwon and Dongsoo Lee},
+booktitle={The Twelfth International Conference on Learning Representations},
+year={2024},
+url={https://openreview.net/forum?id=JzG7kSpjJk}
+}
+```
+
 ## Acknowledgements
 
 This code base is expanded upon wonderful works from
